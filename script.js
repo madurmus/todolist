@@ -38,7 +38,7 @@ const önYüzdenSil = (e) => {
     const li = e.target.parentElement;
     // console.log(li)
     if(e.target.className.includes("fa-solid")){
-        li.style.display = "none";
+        li.remove();
     }
 }
 
